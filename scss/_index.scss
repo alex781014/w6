@@ -1,0 +1,168 @@
+.header-logo {
+    background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/d%E2%80%99Perfume.png?raw=true");
+    text-indent: 101%;
+    width: 128px;
+    height: 38px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+}
+
+.badge {
+    position: relative;
+    top: -10px;
+    left: -10px;
+    border-radius: 50%;
+    padding: 0 3px;
+    color: white;
+    font-weight: 100;
+}
+
+.badge-light {
+    background-color: #916019;
+}
+
+.banner {
+    background-image: url("../image/Banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    .container {
+        height: 100%;
+    }
+
+    .btn {
+        border: 1px solid white;
+        padding: 13px 109px;
+        font-size: 28px;
+        text-decoration: none;
+
+        &:hover {
+            background-color: gray;
+        }
+    }
+}
+
+.banner-title {
+    line-height: 60px;
+}
+
+.banner-txt {
+    line-height: 36px;
+}
+
+.product-txt {
+    width: 63%;
+    margin: 0 auto;
+}
+
+.mt92 {
+    margin-top: 92px;
+}
+
+.product-info {
+    padding-bottom: 52px;
+}
+
+.product-btn {
+    color: black;
+    padding: 18px 51px;
+    border: 2px solid black;
+    font-size: 20px;
+    margin-bottom: 92px;
+
+    &:hover {
+        background-color: gray;
+        color: white;
+    }
+}
+
+.product-price {
+    background-color: #E0E0E0;
+
+    .card-body {
+        background-color: #E0E0E0;
+        padding: 0;
+    }
+}
+
+.bg-soldout::before {
+    content: "Sold out";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer-banner {
+    background: url("../image/anis-m-WnVrO-DvxcE-unsplash.jpg");
+    min-height: 600px;
+    background-position: center;
+    background-size: cover;
+
+    .fbanner-content {
+        padding-top: 312px;
+    }
+
+    .fbanner-input {
+        padding: 20px 0 20px 16px;
+    }
+
+    .btn {
+        padding: 20px 26px;
+        border-radius: 0 4px 4px 0;
+    }
+}
+
+.copyright {
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 32px 0;
+
+}
+
+
+
+
+
+
+@media (max-width:767px) {
+    .banner-title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .banner-txt {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    .product-txt {
+        width: 100%;
+    }
+
+    .mt92 {
+        margin-top: 0;
+    }
+
+    .product-info {
+        margin-bottom: 20px;
+    }
+
+    .product-btn {
+        margin-bottom: 0;
+    }
+
+
+
+}
